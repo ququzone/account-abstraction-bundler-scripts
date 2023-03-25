@@ -1,4 +1,4 @@
-import { HttpRpcClient, SimpleAccountAPI } from "@account-abstraction/sdk"
+import { HttpRpcClient, SimpleAccountAPI } from "@ququzone-account-abstraction/sdk"
 import { EntryPoint__factory
 } from '@account-abstraction/contracts'
 import { providers, utils, Wallet } from "ethers"
