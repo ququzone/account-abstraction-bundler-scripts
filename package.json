@@ -22,7 +22,7 @@
     "typescript": "^4.9.5"
   },
   "dependencies": {
-    "@ququzone-account-abstraction/sdk": "^0.5.2",
+    "@ququzone-account-abstraction/sdk": "^0.5.3",
     "ethers": "^5.7.2"
   }
 }

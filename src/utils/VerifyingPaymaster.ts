@@ -13,6 +13,11 @@ export class VerifyingPaymasterAPI extends PaymasterAPI {
         this.paymaster = paymaster
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    public async getPreVerificationGas (_userOp: Partial<UserOperationStruct>): Promise<number> {
+        return 50000
+    }
+
     public async getPaymasterAndData(userOp: Partial<UserOperationStruct>): Promise<string | undefined> {
         userOp.paymasterAndData = hexConcat([
             this.paymaster.address,

@@ -463,10 +463,10 @@
   resolved "https://registry.yarnpkg.com/@openzeppelin/contracts/-/contracts-4.8.2.tgz#d815ade0027b50beb9bcca67143c6bcc3e3923d6"
   integrity sha512-kEUOgPQszC0fSYWpbh2kT94ltOJwj1qfT2DWo+zVttmGmf97JZ99LspePNaeeaLhCImaHVeBbjaQFZQn7+Zc5g==
 
-"@ququzone-account-abstraction/sdk@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@ququzone-account-abstraction/sdk/-/sdk-0.5.2.tgz#fbb7377c00a576e220b953666596158eb34e6478"
-  integrity sha512-PQt40K7+64d0SBqcLsNrbGUWtuhS9cqJgfMxlCjztQetpQjxzm0PdxEwrLFm+cmF8XSLFGHn5RyOi9tBFzxeTQ==
+"@ququzone-account-abstraction/sdk@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@ququzone-account-abstraction/sdk/-/sdk-0.5.3.tgz#7e4eca65422842b52c41bf7760287b8489f04384"
+  integrity sha512-w9rJ0d/2jEDbplXnmqBKUeog0+7blxVJe83LHqfsP1waVDE17TPu0VjqENcai7AngGwYTL+StRjZkljq9zUtJA==
   dependencies:
     "@account-abstraction/contracts" "^0.5.0"
     "@account-abstraction/utils" "^0.5.0"
