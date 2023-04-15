@@ -42,8 +42,10 @@ async function main() {
   const err = await entryPoint.callStatic.simulateValidation(op).catch((e) => e)
   if (err.errorName === "FailedOp") {
     console.error(`simulate op error ${err.errorArgs.at(-1)}`)
+    return
   } else if (err.errorName !== "ValidationResult") {
     console.error(`unknow error ${err}`)
+    return
   }
 
   const client = new HttpRpcClient('http://localhost:4337', entryPointAddress, 4690)
